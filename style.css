@@ -1,0 +1,44 @@
+body{
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+}
+table.tbl{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border-radius: 10%;
+}
+table.tbl2{
+    border-radius: 10%;
+}
+input[type="button"]{
+    color: black;
+    cursor: pointer;
+    justify-content: center;
+    background-color: white;
+    font-size: 2em;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 85%;
+    margin: 10px 60px 10px 0px;
+    border-radius: 10%;
+}
+input[type="button"]:hover{
+    color: #f64f59;
+}
+
+input[type="text"]{
+    color: black;
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    font-size: 2em;
+    width: 100%;
+    border-radius: 10%;
+}
+#clear{
+    background: #ce3bf3;
+    border: 1px solid #ff9fa8;
+}
